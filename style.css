@@ -105,3 +105,33 @@ hr{
 .main-wrapper .card-wrapper .creator .text-box .maker .name{
     color: hsl(0, 0%, 100%);
 }
+@media screen and (max-width:375px) {
+    .main-wrapper{
+        background: hsl(217, 54%, 11%);
+        height: 82vhx;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 25%;
+        position: relative;
+    }
+    .main-wrapper .card-wrapper .details .item-name{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+    }
+    .main-wrapper .card-wrapper .details .item-description{
+        padding-top: 3%;
+        font-size: 18px;
+        font-weight: 300;
+        color: hsl(215, 51%, 70%);
+    }
+    .main-wrapper .card-wrapper .details .split{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+    .attribution{
+        position: absolute;
+        bottom: 0%;
+    }
+}
