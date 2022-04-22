@@ -105,7 +105,8 @@ hr{
 .main-wrapper .card-wrapper .creator .text-box .maker .name{
     color: hsl(0, 0%, 100%);
 }
-@media screen and (max-width:375px) {
+
+@media screen and (max-width: 375px) {
     .main-wrapper{
         background: hsl(217, 54%, 11%);
         height: 82vhx;
