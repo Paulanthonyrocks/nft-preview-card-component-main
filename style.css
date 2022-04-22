@@ -6,13 +6,15 @@
 }
 
 /* GENERAL STYLING */
-/* .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 5%;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+}
 body{
     font-family: 'Outfit', sans-serif;
 }
@@ -25,19 +27,19 @@ hr{
 /* BODY STYLING */
 .main-wrapper{
     background: hsl(217, 54%, 11%);
-    height: 780px;
+    height: 820px;
     padding-left: 35%;
     padding-right: 35%;
     padding-top: 7%;
 }
 .main-wrapper .card-wrapper{
     background: hsl(216, 50%, 16%);
-    height: 85vh;
+    height: 80vh;
     padding: 8%;
     border-radius: 15px;
 }
 .main-wrapper .card-wrapper .img-wrapper{
-    height: 65%;
+    height: 55%;
     width: 100%;
 }
 .main-wrapper .card-wrapper .img-wrapper .nft-img{
@@ -76,7 +78,7 @@ hr{
     color: hsl(215, 51%, 70%);
 }
 .main-wrapper .card-wrapper .creator{
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: left;
     display: flex;
     flex-direction: row;
