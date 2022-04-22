@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* GENERAL STYLING */
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+body{
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    width: 12px;
+}
+hr{
+    background: hsl(215, 32%, 27%);
+}
+/* BODY STYLING */
+.main-wrapper{
+    background: hsl(217, 54%, 11%);
+    height: 780px;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 7%;
+}
+.main-wrapper .card-wrapper{
+    background: hsl(216, 50%, 16%);
+    height: 85vh;
+    padding: 8%;
+    border-radius: 15px;
+}
+.main-wrapper .card-wrapper .img-wrapper{
+    height: 65%;
+    width: 100%;
+}
+.main-wrapper .card-wrapper .img-wrapper .nft-img{
+    background-image: url('./images/image-equilibrium.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.main-wrapper .card-wrapper .details{
+    padding-top: 5%;
+}
+.main-wrapper .card-wrapper .details .item-name{
+    font-size: 32px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+.main-wrapper .card-wrapper .details .item-description{
+    padding-top: 3%;
+    font-size: 22px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.main-wrapper .card-wrapper .details .split{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main-wrapper .card-wrapper .details .split .item-price{
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    font-weight: 400;
+}
+.main-wrapper .card-wrapper .details .split .item-duration{
+    float: right;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.main-wrapper .card-wrapper .creator{
+    padding-top: 5%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.main-wrapper .card-wrapper .creator .avatar-img{
+    background-image: url("./images/image-avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.main-wrapper .card-wrapper .creator .text-box{
+    padding-left:5% ;
+    font-size: 20px;
+    width: 85%;
+}
+.main-wrapper .card-wrapper .creator .text-box .maker{
+    font-weight: 400;
+    color:hsl(215, 51%, 70%);
+    padding-right: 1%;
+}
+.main-wrapper .card-wrapper .creator .text-box .maker .name{
+    color: hsl(0, 0%, 100%);
+}
