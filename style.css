@@ -21,9 +21,7 @@ body{
 img{
     width: 12px;
 }
-hr{
-    background: hsl(215, 32%, 27%);
-}
+
 /* BODY STYLING */
 .main-wrapper{
     background: hsl(217, 54%, 11%);
@@ -51,6 +49,7 @@ hr{
 }
 .main-wrapper .card-wrapper .details{
     padding-top: 5%;
+    border-bottom: 2px solid hsl(215, 32%, 27%);;
 }
 .main-wrapper .card-wrapper .details .item-name{
     font-size: 32px;
